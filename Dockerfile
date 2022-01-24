@@ -2,10 +2,10 @@
 FROM python:3.9.5-buster
 
 # Import Code
-ADD . /Code
+ADD . /code
 
 # Changing the directory
-WORKDIR /Code
+WORKDIR /code
 
 
 # Installing lib
